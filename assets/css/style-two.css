@@ -166,7 +166,7 @@ letter-spacing: 1px;
 }
 .no-padding { padding: 0 }
 /*END PRELOADER DESIGN*/
-.section-padding {padding:50px 0;}
+.section-padding {padding:100px 0;}
 /*START SECTION TITLE DESIGN*/
 .section-title{margin-bottom:60px;}
 .section-title  h1 {
@@ -175,6 +175,9 @@ font-weight:600;
 margin-top: 0;
 position: relative;
 text-transform: capitalize;
+}
+#bg-img{
+	background-image: url("./assets/img/x.jpg");
 }
 h1.section-title-white{
 color:#fff;
@@ -628,20 +631,29 @@ font-size: 20px;
 	margin-bottom: 30px;
 	padding: 25px 10px;
 	border-radius: 500px;
+	background: rgba( 131, 232, 17, 0.3 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
+	transform-style: preserve-3d;
+	transform-origin: top left;
+	transition: 250ms;
+/* border-radius: 10px; */
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .single_token h4 {
 	font-weight: 600;
 	font-size:18px;
 }
 .single_token p{color: #fff;}
-.single_token_bg_one{background:#5fc0d8;}
-.single_token_bg_two{background:#6f4cf2;}
-.single_token_bg_three{background:#c660e8;}
-.single_token_bg_four{background:#05b169;}
-.single_token_bg_five{background:#f2924c;}
-.single_token_bg_six{background:#e8606f;}
-.single_token_bg_seven{background:#1652f0;}
-.single_token_bg_eight{background:#3DB2FF;}
+.single_token_bg_one{background: rgba( 95, 192, 216, 0.2 );}
+.single_token_bg_two{background:rgba( 111, 76, 242, 0.3 );}
+.single_token_bg_three{background:rgba( 198, 96, 232,  0.3 );}
+.single_token_bg_four{background:rgba( 5, 177, 105,  0.3 );}
+.single_token_bg_five{background:rgba( 242, 146, 76,  0.3 );}
+.single_token_bg_six{background:rgba( 232, 96, 111,  0.3 );}
+.single_token_bg_seven{background:rgba( 22, 82, 240,  0.3 );}
+.single_token_bg_eight{background:rgba( 61, 178, 255,  0.3 );}
 .currency_content{
 background:#1e2739;
 padding:60px;
@@ -1080,7 +1092,7 @@ padding:80px 0;
 @media only screen and (max-width:768px) { 
 .contact {margin-bottom:60px;margin-right:0px;}
 }
-.contact h4 {font-weight: 700;font-size: 40px;}
+.contact h4 {font-weight: 700;font-size: 25px;}
 .contact p {
 margin-bottom:40px;
 }
