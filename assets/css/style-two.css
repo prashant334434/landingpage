@@ -248,7 +248,7 @@ width: 50px;
 /*START BUTTON DESING*/
 .btn_one {
 	background:rgba(254,216,49,1);
-	padding: 10px 36px;
+	padding: 7px 36px;
 	border: 2px solid rgba(254,216,49,1);
 	color: #0c0c0c;
 	border-radius:30px;
@@ -304,13 +304,13 @@ border:2px solid #fff;
 * ----------------------------------------------------------------------------------------
 */
 .navbar-brand img{
-	width: 130px;
+	width: 150px;
 	height: auto;
 }
 
 .navbar-custom {
     background-color: transparent;
-    padding: 20px 0;
+    padding: 5px 0;
     width: 100%;
     border-radius: 0px;
     z-index: 999;
@@ -1099,7 +1099,7 @@ margin-bottom:40px;
 .contact input {
 	background: #1e2739;
 	border-radius: 0px;
-	box-shadow: none;
+	box-shadow: 5px 5px #ffaa174f;
 	color: #fff;
 	font-size: 16px;
 	font-weight: 400;
@@ -1107,7 +1107,7 @@ margin-bottom:40px;
 	height: 70px;
 	padding: 10px 10px 10px 30px;
 	width: 100%;
-	border: 1px solid #1e2739;
+	border: 1px solid #fff;
 	position: relative;
 }
 .contact textarea {
@@ -1143,10 +1143,11 @@ color: #fff;
 }
 
 .address_bg {
-	background: #1e2739;
+	background: #1e2739cd;
 	padding: 40px;
 	position: relative;
-	box-shadow: 0 10px 40px -10px rgba(0,64,128,.1);
+	/* box-shadow: 0 10px 40px -10px rgba(0,64,128,.1); */
+	box-shadow: 5px 5px rgba(254, 216, 49, 0.57);
 	border-radius: 3px;
 }
 .single_address {
@@ -1181,9 +1182,9 @@ float:left;
 }
 .single_address p{overflow: hidden;}
 .contact_btn {
-	background: #ffaa17;
+	background: rgba(254,216,49,1);
 	padding: 10px;
-	color: #fff;
+	color: #171717;
 	position: relative;
 	text-transform: capitalize;
 	font-weight: 600;
